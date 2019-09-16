@@ -1,0 +1,16 @@
+{
+    "name": "php/firebase",
+    "description": "php firebase connection",
+    "type": "Project",
+    "license": "GNU3",
+    "authors": [
+        {
+            "name": "Auther System",
+            "email": "vaibhav.buccha@ifuturz.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "kreait/firebase-php": "4.32"
+    }
+}
