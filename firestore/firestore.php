@@ -23,7 +23,7 @@ class firestore{
 	}
 
 
-#                           "view record"
+#                           "view record of database"
 #----------------------------------------------------------------------------------
 	public function getDocument(string $name)
 	{
@@ -39,7 +39,7 @@ class firestore{
         }
 	}
 
-#                           "insert record"
+#                           "insert record in firebase database"
 #----------------------------------------------------------------------------------
 	public function insert(string $name,array $data)
 	{
@@ -49,7 +49,7 @@ class firestore{
 
 	}
 
-#                           "delete record"
+#                           "delete record from firebase database"
 #----------------------------------------------------------------------------------
 
 	public function dropDocument(string $name)
